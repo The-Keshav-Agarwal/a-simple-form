@@ -1,0 +1,317 @@
+*{
+    font-family: sans-serif;
+    color: black;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f1f1;
+}
+.form{
+    background-color: white;
+    margin: 100px;
+    padding: 100px;
+}
+input{
+    padding: 10px;
+    border: 1px solid black;
+    width: 50%;
+    font-size: 15px;
+}
+#gender
+{
+    padding: 10px;
+    width: 30%;
+    font-size: 15px;
+    margin-left: -6px;
+}
+#email
+{
+    margin-left: 100px;
+}
+#pword
+{
+    margin-left:70px;
+}
+#rpword
+{
+    margin-left: 11px;
+}
+input:invalid
+{
+    background-color: #ffdddd;
+}
+input.invalid
+{
+    background-color: #ffdddd;
+}
+.container
+{
+    display: none;
+}
+#prebtn,#nextbtn
+{
+    background-color: #323232;
+    margin-left: 0px;
+    padding: 10px;
+    font-size: 15px;
+    color: #f1f1f1;
+    opacity: .8;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+#prebtn:hover,#nextbtn:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+#nextbtn
+{
+    background-color: rgb(29, 146, 29);
+    margin-left: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.circle
+{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    margin: 0 2px;
+    background-color: #323232;
+    opacity: 0.5;
+    display: inline-block;
+}
+.circle.active
+{
+    opacity: 1;
+}
+.circle.valid
+{
+    background-color: rgb(29, 146, 29);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    background-color: #323232;
+    color: oldlace;
+    font-family: sans-serif;
+}
+form{
+    font-size: 40px;
+    margin-left: 400px;
+    margin-top: 150px;
+}
+input[type="text"]
+{
+    font-size: 20px;
+    margin-left: 20px;
+    height: 45px;
+    width: 45%;
+    margin-bottom: 10px;
+}
+#gender
+{
+    font-size: 20px;
+    margin-left: 23px;
+    height: 45px;
+    width: 45%;
+    margin-bottom: 10px;
+}
+input[type = "date"]
+{
+    font-size: 20px;
+    margin-left: 68px;
+    height: 45px;
+    width: 45%;
+    margin-bottom: 10px;
+}
+input[type = "date"]:hover{
+    cursor: pointer;
+}
+input[type="name"]
+{
+    font-size: 20px;
+    margin-left: 46px;
+    height: 45px;
+    width: 45%;
+    margin-bottom: 10px;
+}
+input[type="email"]
+{
+    font-size: 20px;
+    margin-left: 46px;
+    height: 45px;
+    width: 45%;
+    margin-bottom: 10px;
+}
+input[type="password"]
+{
+    font-size: 20px;
+    margin-left: 46px;
+    height: 45px;
+    width: 45%;
+    margin-bottom: 10px;
+}
+.next,#pre2,#next2,#next3,#pre3{
+    background-color:whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+    font-size: 30px;
+    margin-left: 300px;
+    margin-top: 40px;
+    text-decoration: none;
+    color: #333333;
+}
+.next:hover,#pre2:hover,#next2:hover{
+    cursor: pointer;
+}
+#pre2
+{
+    display: inline;
+    margin-left: 370px;
+}
+#next2
+{
+    display: inline;
+    margin-left: 500px;
+}
+#pre3
+{
+    display: inline;
+    margin-left: 70px;
+}
+button{
+    cursor: pointer;
+    
+}
+.last
+{
+    font-size: 40px;
+    text-align: center;
+    margin: 100px;
+} */

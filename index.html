@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my form</title>
+       <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <form class="form"><h1 style="text-align: center;" class="heading">My Form</h1>
+        <div class="container"><h3>Enter Your Personal Details</h3>
+            <p><label for="name">Name &emsp;</label>
+            <input type="name" spellcheck="false" placeholder="Enter Your Full Name" name="name" id="name" oninput="this.className=''"></p>
+            <p><label for="dob">DOB&emsp;&emsp;</label><input type="date"  oninput="this.className=''" placeholder="Enter Your DOB" id="dob"></p>
+            <p><label for="gender">Gender &nbsp; &nbsp;</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value = "other">Other</option>
+            </select></p>
+            <p><label for="countryname">Country&emsp;</label><input  oninput="this.className=''" type="text" spellcheck="false" id="countryname" placeholder="Enter Your Country Name"></p>
+        </div>
+        <div class="container"><h3>Upload Your Profile Picture</h3>
+            <p><input type="file" multiple="false" accept="image/*" onchange="uploadImage(this.files)" style="display: none;" id="upload">
+            <label for="upload" style="cursor: pointer;" >Click Here To Upload (<span id="select">no </span>image is selected)</label></p>
+            <p>if you don't want to upload picture than click next button to go to next page</p>
+            <p id="image"></p>
+        </div>
+        <div class="container"><h3>Enter Your Email Id And Password</h3>
+            <p><label for="email">Email</label><input type="email" id="email" spellcheck="false" oninput="this.className=''"  placeholder="Enter Your Email Id"></p>
+            <p><label for="pword">Password</label><input type="password" oninput="this.className=''" id="pword" placeholder="Password(your password must contain atleast 8 letter)" title="your password must contain at least 8 character"></p>
+            <p><label for="rpword">Confirm Password</label><input type="password" oninput="this.className=''" id="rpword" placeholder="Confirm Your Password"></p>
+        </div>
+        <div class="container">
+            <h2>Thanks For Submitting The Form Your Response Has Been Recorded.</h2>
+        </div>
+
+        <div style="margin-top: 30px;" class='btn'>
+             <button type="button" id="prebtn" onclick='nextPre(-1)'>PREVIOUS</button>
+             <button type="button" id="nextbtn" onclick="nextPre(1)">NEXT</button>
+        </div>
+        <div style="text-align: center; margin-top: 60px;">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+        
+    </form>
+    <script src = "page2.js"></script>
+    </body>
+</html>
