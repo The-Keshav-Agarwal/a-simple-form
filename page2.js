@@ -2,8 +2,6 @@ function uploadImage(files)
 {
     var x = document.createElement('img');
     x.src = URL.createObjectURL(files[0]);
-    var z = document.getElementById('select');
-    z.innerHTML="";
     x.height =250;
     x.width=250;
     var y = document.getElementById('image');
