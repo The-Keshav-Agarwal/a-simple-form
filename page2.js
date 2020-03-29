@@ -58,21 +58,9 @@ function nextPre(n)
     }
     else
     {
-        if(current==2&&n==1)
-        {
-        var a =prompt("Are You Want To Submit Your Form Enter y To Submit And n For Cancel");
-        if(a=='y')
-        {
-        document.getElementsByClassName('container')[current].style.display='none';
-        current = current+n;
-        showContainer(current);
-    }
-        }
-        else{
             document.getElementsByClassName('container')[current].style.display='none';
             current = current+n;
             showContainer(current);
-        }
     }
 }
 function validForm()
